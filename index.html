@@ -1,0 +1,660 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#194b35" />
+    <meta
+      name="description"
+      content="Saket Vedantam — business student, writer, and video storyteller at TAPMI Bengaluru. A portfolio of curiosity, creative work, and always growing."
+    />
+    <meta property="og:title" content="Saket Vedantam — Always Growing" />
+    <meta
+      property="og:description"
+      content="Writing, visual stories, and a little curiosity. Explore the work of Saket Vedantam."
+    />
+    <meta property="og:type" content="website" />
+    <title>Saket Vedantam — Always Growing</title>
+    <link rel="icon" href="assets/flower.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;450;500;550;600;650;700&family=DM+Serif+Display:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="reading-progress" aria-hidden="true"></div>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#home" aria-label="Saket Vedantam, home"
+          ><svg class="brand-flower" viewBox="0 0 48 48" aria-hidden="true">
+            <use href="#flower" /></svg
+          ><span>saket vedantam<span class="brand-dot">.</span></span></a
+        >
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="main-nav"
+        >
+          <span></span><span></span
+          ><span class="sr-only">Toggle navigation</span>
+        </button>
+        <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+          <a href="#work">Selected work</a><a href="#about">A little about me</a
+          ><a href="#contact" class="nav-contact"
+            >Let’s connect
+            <svg viewBox="0 0 20 20" aria-hidden="true">
+              <path d="M3 4h14v12H3zM3 4l7 6 7-6" /></svg
+          ></a>
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+      <section class="hero container" id="home" aria-labelledby="hero-heading">
+        <div class="hero-copy">
+          <p class="eyebrow hero-eyebrow">
+            <span class="little-sun" aria-hidden="true">✳</span> A WORK IN
+            PROGRESS. IN THE BEST WAY.
+          </p>
+          <h1 id="hero-heading">
+            Always<br /><em>growing.</em
+            ><svg class="heading-spark" viewBox="0 0 76 76" aria-hidden="true">
+              <path
+                d="M38 4v19m0 30v19M4 38h19m30 0h19M14 14l14 14m20 20 14 14M14 62l14-14m20-20 14-14"
+              />
+            </svg>
+          </h1>
+          <p class="hero-description">
+            I’m Saket. A business student, writer, and visual
+            storyteller—finding my voice, building my craft, and staying curious
+            along the way.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-green" href="#work"
+              >Explore my work
+              <svg viewBox="0 0 20 20" aria-hidden="true">
+                <path d="M10 3v14M3 10h14" /></svg></a
+            ><a
+              class="text-link resume-link"
+              href="assets/saket-vedantam-resume.pdf"
+              download="Saket-Vedantam-Resume.pdf"
+              >Download résumé
+              <svg viewBox="0 0 20 20" aria-hidden="true">
+                <path d="M10 3v9m-4-3 4 4 4-4M4 14v3h12v-3" /></svg
+            ></a>
+          </div>
+          <div class="hero-location">
+            <svg viewBox="0 0 20 20" aria-hidden="true">
+              <path
+                d="M15.5 8c0 4-5.5 9-5.5 9S4.5 12 4.5 8a5.5 5.5 0 1 1 11 0Z"
+              />
+              <circle cx="10" cy="8" r="1.8" />
+            </svg>
+            Rooted in Bengaluru. Open to possibilities.
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="portrait-frame">
+            <img
+              id="portrait"
+              src="https://saketvedantamportfolio.vercel.app/profile.jpg"
+              width="960"
+              height="1280"
+              alt="Saket Vedantam on campus"
+              fetchpriority="high"
+            />
+            <div class="portrait-caption">
+              <span>SAKET VEDANTAM</span><span>IN MY GROWING ERA</span>
+            </div>
+          </div>
+          <div class="sun-sticker" aria-hidden="true">
+            <svg viewBox="0 0 130 130">
+              <path
+                fill="currentColor"
+                d="m65 0 9 17 16-10 1 20 20-1-9 18 18 9-17 11 11 17-20 3 3 20-19-7-8 18-13-15-16 12-5-19-20 5 5-20-19-5 12-16L0 64l18-8-7-19 20 3 3-20 17 11Z"
+              />
+              <path
+                d="M46 59q3-9 7 0m21 0q3-9 7 0M48 76q17 17 33-2"
+                fill="none"
+                stroke="#194b35"
+                stroke-width="3"
+                stroke-linecap="round"
+              />
+            </svg>
+          </div>
+          <div class="growth-sticker">
+            <svg viewBox="0 0 52 56" aria-hidden="true">
+              <path d="M26 53V25" />
+              <path
+                d="M26 35C9 35 5 25 6 13c14 0 21 8 20 22Zm0-8c-2-14 6-22 20-23 0 13-6 23-20 23Z"
+              /></svg
+            ><span>A little more<br /><em>every day.</em></span>
+          </div>
+          <span class="portrait-note"
+            >Learning as I go. Making as I learn.</span
+          >
+        </div>
+        <div class="hero-bottom">
+          <span>BUSINESS MIND. CREATIVE SPIRIT.</span
+          ><a href="#work"
+            >SCROLL TO EXPLORE
+            <span class="scroll-line" aria-hidden="true"></span
+          ></a>
+        </div>
+      </section>
+      <div
+        class="ticker"
+        aria-label="Stay curious. Make things. Keep learning. Always growing."
+      >
+        <div aria-hidden="true">
+          <span>STAY CURIOUS</span
+          ><svg viewBox="0 0 48 48"><use href="#flower" /></svg
+          ><span>MAKE THINGS</span
+          ><svg viewBox="0 0 48 48"><use href="#flower" /></svg
+          ><span>KEEP LEARNING</span
+          ><svg viewBox="0 0 48 48"><use href="#flower" /></svg
+          ><span>ALWAYS GROWING</span
+          ><svg viewBox="0 0 48 48"><use href="#flower" /></svg
+          ><span>STAY CURIOUS</span
+          ><svg viewBox="0 0 48 48"><use href="#flower" /></svg
+          ><span>MAKE THINGS</span
+          ><svg viewBox="0 0 48 48"><use href="#flower" /></svg>
+        </div>
+      </div>
+      <section
+        class="work-section container section-space"
+        id="work"
+        aria-labelledby="work-heading"
+      >
+        <div class="section-intro reveal">
+          <div>
+            <p class="eyebrow">IDEAS, OUT IN THE WORLD</p>
+            <h2 id="work-heading">
+              A few things<br />I’ve <em>put into practice.</em>
+            </h2>
+          </div>
+          <p>
+            Some written. Some filmed. Some thought through with others. All
+            part of the process.
+          </p>
+        </div>
+        <div class="work-toolbar">
+          <div
+            class="project-filters"
+            role="group"
+            aria-label="Filter selected work"
+          >
+            <button class="filter active" data-filter="all" aria-pressed="true">
+              All work <span>3</span></button
+            ><button class="filter" data-filter="writing" aria-pressed="false">
+              Writing</button
+            ><button class="filter" data-filter="video" aria-pressed="false">
+              Visual stories</button
+            ><button class="filter" data-filter="research" aria-pressed="false">
+              Research
+            </button>
+          </div>
+          <p class="work-count" aria-live="polite">
+            <span id="project-count">3</span> things I’m proud to share
+          </p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card reveal" data-category="writing">
+            <button
+              class="project-image writing-cover"
+              data-project="writing"
+              aria-label="Explore I Will Keep Trying, personal essay"
+            >
+              <span class="cover-label">A PERSONAL REFLECTION</span
+              ><span class="essay-title">I will<br />keep <em>trying.</em></span
+              ><svg
+                class="cover-daisy"
+                viewBox="0 0 160 160"
+                aria-hidden="true"
+              >
+                <g fill="#fffdf2">
+                  <ellipse cx="80" cy="41" rx="15" ry="32" />
+                  <ellipse cx="80" cy="119" rx="15" ry="32" />
+                  <ellipse cx="41" cy="80" rx="32" ry="15" />
+                  <ellipse cx="119" cy="80" rx="32" ry="15" />
+                  <ellipse
+                    cx="52"
+                    cy="52"
+                    rx="15"
+                    ry="32"
+                    transform="rotate(-45 52 52)"
+                  />
+                  <ellipse
+                    cx="108"
+                    cy="108"
+                    rx="15"
+                    ry="32"
+                    transform="rotate(-45 108 108)"
+                  />
+                  <ellipse
+                    cx="108"
+                    cy="52"
+                    rx="15"
+                    ry="32"
+                    transform="rotate(45 108 52)"
+                  />
+                  <ellipse
+                    cx="52"
+                    cy="108"
+                    rx="15"
+                    ry="32"
+                    transform="rotate(45 52 108)"
+                  />
+                </g>
+                <circle cx="80" cy="80" r="24" fill="#214d37" /></svg
+              ><span class="cover-bottom">NOTES ON AMBITION & BECOMING</span
+              ><span class="cover-open" aria-hidden="true">+</span>
+            </button>
+            <div class="project-meta">
+              <span>WRITING · SUBSTACK</span><span>Personal essay</span>
+            </div>
+            <h3><button data-project="writing">I Will Keep Trying</button></h3>
+            <p>
+              On ambition, the distance between intention and action, and
+              choosing to try again.
+            </p>
+            <button class="project-text-link" data-project="writing">
+              Read the story <span aria-hidden="true">+</span>
+            </button>
+          </article>
+          <article class="project-card reveal" data-category="video">
+            <button
+              class="project-image video-cover"
+              data-project="video"
+              aria-label="Explore Stories in Motion, short-form video work"
+            >
+              <span class="cover-label">SMALL MOMENTS. THEIR OWN STORIES.</span
+              ><span class="video-window"
+                ><span class="video-landscape"
+                  ><svg viewBox="0 0 320 280" aria-hidden="true">
+                    <circle cx="248" cy="59" r="29" fill="#f5e46f" />
+                    <path
+                      d="M0 168Q62 78 138 151T320 121V280H0Z"
+                      fill="#81aa7b"
+                    />
+                    <path
+                      d="M0 219Q71 149 168 198T320 174V280H0Z"
+                      fill="#386c49"
+                    />
+                    <path
+                      d="M167 280q-27-63 17-106"
+                      fill="none"
+                      stroke="#f9f3cd"
+                      stroke-width="20"
+                    /></svg
+                  ><span class="play-symbol" aria-hidden="true"
+                    ><svg viewBox="0 0 20 20">
+                      <path d="m6 3 11 7-11 7Z" /></svg></span></span
+                ><span class="video-timeline"
+                  ><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i
+                  ><i></i><i></i><span></span></span></span
+              ><span class="video-note">a frame. a feeling. a story.</span
+              ><span class="cover-open" aria-hidden="true">+</span>
+            </button>
+            <div class="project-meta">
+              <span>VIDEO · PREMIERE PRO</span><span>Ongoing practice</span>
+            </div>
+            <h3><button data-project="video">Stories in Motion</button></h3>
+            <p>
+              Finding the story in everyday moments through short-form video,
+              rhythm, and sound.
+            </p>
+            <button class="project-text-link" data-project="video">
+              Explore the process <span aria-hidden="true">+</span>
+            </button>
+          </article>
+          <article class="project-card reveal" data-category="research">
+            <button
+              class="project-image research-cover"
+              data-project="research"
+              aria-label="Explore From Creator to Entrepreneur, a group research project"
+            >
+              <span class="cover-label">DECODING THE DISRUPTOR</span
+              ><span class="research-title"
+                >From creator<br />to <em>entrepreneur.</em></span
+              ><span class="research-diagram" aria-hidden="true"
+                ><span>ETHOS</span><span>PATHOS</span><span>LOGOS</span
+                ><svg viewBox="0 0 260 72">
+                  <path
+                    d="M8 36h14l7-16 9 37 10-50 10 57 9-42 7 14h13l9-25 10 47 10-35 9 21 9-8h13l8-16 9 37 10-50 10 57 9-42 7 14h13l9-25 10 47 10-35 9 21 9-8h17"
+                  /></svg></span
+              ><span class="cover-bottom"
+                >VARUN MAYYA · COMMUNICATION OVER TIME</span
+              ><span class="cover-open" aria-hidden="true">+</span>
+            </button>
+            <div class="project-meta">
+              <span>RESEARCH · COMMUNICATION</span><span>Group project</span>
+            </div>
+            <h3>
+              <button data-project="research">
+                From Creator to Entrepreneur
+              </button>
+            </h3>
+            <p>
+              Tracing nearly eight years of Varun Mayya’s evolving voice and
+              professional identity.
+            </p>
+            <button class="project-text-link" data-project="research">
+              Open the case study <span aria-hidden="true">+</span>
+            </button>
+          </article>
+        </div>
+        <p class="work-footnote">
+          <svg viewBox="0 0 48 48" aria-hidden="true">
+            <use href="#flower" />
+          </svg>
+          A small collection, with plenty of room to grow.
+        </p>
+      </section>
+      <section
+        class="about-section section-space"
+        id="about"
+        aria-labelledby="about-heading"
+      >
+        <div class="container about-grid">
+          <div class="about-art reveal">
+            <p class="eyebrow">ROOTS & ROOM TO GROW</p>
+            <div class="plant-art" aria-hidden="true">
+              <svg viewBox="0 0 340 390">
+                <circle cx="174" cy="168" r="142" fill="#d9edf5" />
+                <path
+                  d="M177 298V120"
+                  fill="none"
+                  stroke="#194b35"
+                  stroke-width="7"
+                  stroke-linecap="round"
+                />
+                <path
+                  d="M177 209c-58 3-94-32-88-81 54 2 88 24 88 81Z"
+                  fill="#72986b"
+                />
+                <path
+                  d="M178 158c-2-52 26-84 73-78 1 49-26 77-73 78Z"
+                  fill="#194b35"
+                />
+                <path
+                  d="M176 264c4-49 37-76 87-65-5 48-37 72-87 65Z"
+                  fill="#40754c"
+                />
+                <path
+                  d="M175 121c-32-16-43-45-22-75 33 15 42 41 22 75Z"
+                  fill="#a8bb72"
+                />
+                <path d="M122 278h110l-17 89h-76Z" fill="#e9d66a" />
+                <path d="M114 279h125v19H114Z" fill="#f2df78" />
+                <path
+                  d="M100 370h154"
+                  stroke="#194b35"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+                <path
+                  d="m59 59 5 12m-24 8 13 3m224 82 12-7m-8 26 11 5"
+                  stroke="#194b35"
+                  stroke-width="2.5"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </div>
+            <span class="art-caption">Good things take a little tending.</span>
+            <div class="education-label">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="m2 9 10-5 10 5-10 5L2 9Zm4 3v6q6 4 12 0v-6m4-3v8" />
+              </svg>
+              <div>
+                <strong>TAPMI Bengaluru</strong
+                ><span>BBA (Hons.) · Class of 2030</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-copy reveal">
+            <h2 id="about-heading">
+              A business mind.<br />A <em>curious spirit.</em>
+            </h2>
+            <p class="about-lead">
+              I like figuring things out—and finding a way to express what I
+              discover.
+            </p>
+            <p>
+              I’m a first-year BBA (Hons.) student at TAPMI Bengaluru. Alongside
+              business, I’m exploring the things that make communication work: a
+              thoughtful piece of writing, a well-timed edit, or a conversation
+              that helps people see things differently.
+            </p>
+            <p>
+              Substack is where I think out loud. Video is where I experiment
+              with rhythm and storytelling. Collaborative projects give me a
+              chance to listen, ask better questions, and put ideas to work.
+            </p>
+            <p>
+              I’m still developing my direction. For now, I’m making things,
+              paying attention, and learning as I go.
+            </p>
+            <div class="language-note">
+              <span>FOUR LANGUAGES. MORE WAYS TO CONNECT.</span>
+              <p>English <i>·</i> Hindi <i>·</i> Kannada <i>·</i> Telugu</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="growth-section container section-space"
+        id="growth"
+        aria-labelledby="growth-heading"
+      >
+        <div class="section-intro reveal">
+          <div>
+            <p class="eyebrow">THINGS I’M CULTIVATING</p>
+            <h2 id="growth-heading">
+              The practice<br />behind the <em>progress.</em>
+            </h2>
+          </div>
+          <p>No finished version. Just a few skills I keep showing up for.</p>
+        </div>
+        <div class="growth-layout reveal">
+          <div
+            class="growth-tabs"
+            role="tablist"
+            aria-orientation="vertical"
+            aria-label="Explore my developing skills"
+          >
+            <button
+              role="tab"
+              aria-selected="true"
+              aria-controls="growth-panel"
+              id="tab-writing"
+              data-growth="writing"
+              tabindex="0"
+            >
+              <span class="tab-icon" aria-hidden="true">✎</span
+              ><span
+                ><strong>Finding my voice</strong
+                ><small>Writing & clear thinking</small></span
+              ><span class="tab-plus" aria-hidden="true">−</span></button
+            ><button
+              role="tab"
+              aria-selected="false"
+              aria-controls="growth-panel"
+              id="tab-video"
+              data-growth="video"
+              tabindex="-1"
+            >
+              <span class="tab-icon" aria-hidden="true">▷</span
+              ><span
+                ><strong>Thinking in frames</strong
+                ><small>Editing & visual storytelling</small></span
+              ><span class="tab-plus" aria-hidden="true">+</span></button
+            ><button
+              role="tab"
+              aria-selected="false"
+              aria-controls="growth-panel"
+              id="tab-people"
+              data-growth="people"
+              tabindex="-1"
+            >
+              <span class="tab-icon" aria-hidden="true">✳</span
+              ><span
+                ><strong>Understanding people</strong
+                ><small>Listening & collaboration</small></span
+              ><span class="tab-plus" aria-hidden="true">+</span>
+            </button>
+          </div>
+          <div
+            class="growth-panel"
+            id="growth-panel"
+            role="tabpanel"
+            aria-labelledby="tab-writing"
+            tabindex="0"
+          >
+            <p class="eyebrow" id="growth-kicker">WORDS INTO UNDERSTANDING</p>
+            <h3 id="growth-title">Writing to figure<br />things out.</h3>
+            <p id="growth-description">
+              I use long-form writing to untangle observations and give ideas a
+              clearer shape. My Substack is an ongoing practice in honesty,
+              structure, and finding a voice that feels like my own.
+            </p>
+            <div class="skill-chips" id="growth-skills">
+              <span>Personal essays</span><span>Structured thinking</span
+              ><span>Audience awareness</span>
+            </div>
+            <span class="panel-flower" aria-hidden="true">✳</span>
+          </div>
+        </div>
+        <div class="journey-note">
+          <span>A FOUNDATION, TAKING SHAPE</span>
+          <p>
+            <strong>2026</strong> TAPMI, writing & creative practice
+            <span class="journey-line" aria-hidden="true"></span
+            ><strong>2030</strong> BBA (Hons.) graduation, ahead
+          </p>
+        </div>
+      </section>
+      <section
+        class="contact-section"
+        id="contact"
+        aria-labelledby="contact-heading"
+      >
+        <div class="container">
+          <div class="contact-top">
+            <p class="eyebrow">GOOD THINGS START WITH A CONVERSATION</p>
+            <svg class="contact-flower" viewBox="0 0 48 48" aria-hidden="true">
+              <use href="#flower" />
+            </svg>
+          </div>
+          <h2 id="contact-heading">
+            What could we<br /><em>grow together?</em>
+          </h2>
+          <div class="contact-bottom">
+            <p>
+              A writing idea, a video project, or something we haven’t thought
+              of yet. I’m open to a conversation.
+            </p>
+            <a
+              class="button button-yellow"
+              href="mailto:saketvedantam007@gmail.com"
+              >Say hello
+              <svg viewBox="0 0 20 20" aria-hidden="true">
+                <path d="M3 4h14v12H3zM3 4l7 6 7-6" /></svg
+            ></a>
+          </div>
+          <div class="contact-details">
+            <a href="mailto:saketvedantam007@gmail.com"
+              >saketvedantam007@gmail.com</a
+            ><button
+              id="copy-email"
+              type="button"
+              aria-label="Copy email address"
+            >
+              <svg viewBox="0 0 20 20" aria-hidden="true">
+                <rect x="7" y="7" width="10" height="10" rx="2" />
+                <path d="M12 7V3H3v9h4" /></svg
+              ><span>Copy email</span>
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-top">
+        <a class="brand" href="#home"
+          ><svg class="brand-flower" viewBox="0 0 48 48" aria-hidden="true">
+            <use href="#flower" /></svg
+          ><span>saket vedantam.</span></a
+        >
+        <div class="social-links">
+          <a
+            href="https://saketvedantam.substack.com/p/45178848-690a-49bd-8d4c-22d7385c13b1"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Substack</a
+          ><a
+            href="https://www.instagram.com/saket_vedantam/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Instagram</a
+          ><a
+            href="assets/saket-vedantam-resume.pdf"
+            download="Saket-Vedantam-Resume.pdf"
+            >Résumé</a
+          >
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© <span id="year">2026</span> Saket Vedantam</span
+        ><span>Made with curiosity. Always growing.</span
+        ><a href="#home">Back to top</a>
+      </div>
+    </footer>
+    <dialog
+      class="project-dialog"
+      id="project-dialog"
+      aria-labelledby="dialog-title"
+    >
+      <div class="dialog-top">
+        <span class="eyebrow" id="dialog-category"></span
+        ><button
+          class="dialog-close"
+          type="button"
+          aria-label="Close project details"
+        >
+          ×
+        </button>
+      </div>
+      <div class="dialog-content">
+        <h2 id="dialog-title"></h2>
+        <p class="dialog-intro" id="dialog-intro"></p>
+        <div id="dialog-body"></div>
+        <a
+          class="button button-green"
+          id="dialog-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        ></a>
+      </div>
+    </dialog>
+    <div class="toast" role="status" aria-live="polite"></div>
+    <svg
+      class="svg-definitions"
+      aria-hidden="true"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <symbol id="flower" viewBox="0 0 48 48">
+        <path
+          d="M24 13c-13-20-27 0-12 11-20 13 0 27 12 12 13 20 27 0 12-12C56 11 36-3 24 13Z"
+          fill="currentColor"
+        />
+        <circle cx="24" cy="24" r="6" fill="var(--flower-center, #f5e47a)" />
+      </symbol>
+    </svg>
+  </body>
+</html>
